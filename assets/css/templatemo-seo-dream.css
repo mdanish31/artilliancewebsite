@@ -51,9 +51,11 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 .logo-img {
-  width: 160px;  /* Adjust based on your image size */
+  width: 180px;  /* Adjust based on your image size */
   height: auto;
   transition: transform 0.3s ease;
+  margin-top: 30px;
+  margin-left: 120px;
 }
 
 .logo-text {
@@ -66,7 +68,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 /* Hover Effects */
 .logo:hover .logo-img {
-  transform: rotate(360deg);
+  transform: rotate();
 }
 
 .logo:hover .logo-text {
@@ -250,7 +252,7 @@ body {
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #4771cb;
+  background-color: #f8f8f8;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -296,7 +298,7 @@ header
 */
 
 .background-header {
-  background-color: #33ccc5!important;
+  background-color: #48e4cf27!important;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -331,7 +333,7 @@ header
 }
 
 .header-area {
-  background-color: #33ccc5;
+  background-color:  #a8ffff;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -422,7 +424,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #fff;
+  color: rgb(24, 22, 22);
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -436,12 +438,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fff!important;
+  color: rgb(19, 18, 18)!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fff!important;
+  color: rgb(14, 13, 13)!important;
   opacity: 1;
 }
 
@@ -895,17 +897,17 @@ Banner Style
   overflow: hidden;
 }
 
-.main-banner:after {
+/* .main-banner:after {
   content: '';
   background-image: url(../images/banner-dec-left.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
-  top: 100px;
+  top: 320px;
   width: 212px;
   height: 653px;
   z-index: -1;
-}
+} */
 
 .main-banner:before {
   content: '';
@@ -949,12 +951,15 @@ Banner Style
   color: #2a2a2a;
   line-height: 72px;
   background: #FA9D4D;
-  background: -webkit-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: -moz-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
+  background: -webkit-linear-gradient(to right, #6190E8 80%, #A7BFE8 100%);
+  background: -moz-linear-gradient(to right,  #6190E8 80%, #A7BFE8 100%);
+  background: linear-gradient(to right,  #6190E8 80%, #A7BFE8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
 
 /* .main-banner .left-content  h5{
   border-top: 1px solid #eee;
@@ -987,7 +992,7 @@ Banner Style
   line-height: 22px;
 
   /* New solid color (blue in this case) */
-  color: #007bff;
+  color: #222425;
 
   /* Comment out the gradient properties */
   /* background: #FA9D4D; */
